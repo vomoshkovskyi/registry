@@ -178,6 +178,12 @@
         <version>${curator-test.version}</version>
         <scope>test</scope>
       </dependency>
+        <dependency>
+            <groupId>org.apache.ranger</groupId>
+            <artifactId>ranger-schema-registry-plugin</artifactId>
+            <version>0.7.0.2.6.3.0-235-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
     <build>
       <plugins>
