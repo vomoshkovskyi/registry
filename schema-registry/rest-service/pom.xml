@@ -180,7 +180,7 @@
       </dependency>
         <dependency>
             <groupId>com.hortonworks.registries</groupId>
-            <artifactId>authorizer-agent</artifactId>
+            <artifactId>schema-registry-authorization-agent</artifactId>
             <version>${project.version}</version>
             <scope>compile</scope>
         </dependency>
