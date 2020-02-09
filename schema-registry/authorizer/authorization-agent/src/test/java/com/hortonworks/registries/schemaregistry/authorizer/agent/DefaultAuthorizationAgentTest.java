@@ -127,8 +127,8 @@ public class DefaultAuthorizationAgentTest {
 
         Map<String, Object> props = new HashMap<>();
 
-        props.put("authorizationAgentClassName", DefaultAuthorizationAgent.class.getCanonicalName());
-        props.put("authorizerClassName", TestAuthorizer.class.getCanonicalName());
+        props.put(AuthorizationAgent.AUTHORIZATION_AGENT_CONFIG, DefaultAuthorizationAgent.class.getCanonicalName());
+        props.put(Authorizer.AUTHORIZER_CONFIG, TestAuthorizer.class.getCanonicalName());
 
         authorizationAgent = AuthorizationAgentFactory.getAuthorizationAgent(props);
         TestAuthorizer testAuthorizer = (TestAuthorizer) (((DefaultAuthorizationAgent)authorizationAgent)
