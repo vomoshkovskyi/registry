@@ -178,6 +178,12 @@
         <version>${curator-test.version}</version>
         <scope>test</scope>
       </dependency>
+        <dependency>
+            <groupId>com.hortonworks.registries</groupId>
+            <artifactId>schema-registry-authorization-agent</artifactId>
+            <version>${project.version}</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
     <build>
       <plugins>
